@@ -1,4 +1,10 @@
 {
+  "Lua.codeLens.enable": true,
+  "Lua.completion.callSnippet": "Both",
+  "Lua.diagnostics.globals": [
+    "vim"
+  ],
+  "Lua.hint.enable": true,
   "cSpell.fixSpellingWithRenameProvider": true,
   "coc.preferences.formatOnSave": true,
   "colors.enable": true,

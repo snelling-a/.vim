@@ -37,6 +37,7 @@ let g:coc_global_extensions = [
             \'coc-html',
             \'coc-import-cost',
             \'coc-json',
+            \'coc-lua',
             \'coc-marketplace',
             \'coc-prettier',
             \'coc-sh',
