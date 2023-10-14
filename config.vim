@@ -29,7 +29,7 @@ set regexpengine=1 " this should make vim a bit faster, if does not work, set to
 set ruler          " Ruler on
 set shortmess+=c   " don't give |ins-completion-menu| messages
 set signcolumn=number " Ensures no flickering for coc-git
-set title          " Set the title of the window in the terminal to the file
+set titleold=""
 set updatetime=300 " Added based on guidance from coc.nvim
 set nocursorline
 
