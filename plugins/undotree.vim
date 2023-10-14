@@ -9,7 +9,7 @@ endif
 nnoremap <F5> :UndotreeToggle<CR>
 
 if has("persistent_undo")
-    let target_path = expand('~.vim/undodir')
+    let target_path = expand("$XDG_STATE_HOME/vim/undo//")
 
     " create the directory and any parent directories
     " if the location does not exist.
