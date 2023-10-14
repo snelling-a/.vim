@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.0.0](https://github.com/snelling-a/vim/compare/v1.2.4...v2.0.0) (2023-10-14)
+
+
+### ⚠ BREAKING CHANGES
+
+* vimrc is now in this repository it symlinks to $HOME/.vim
+
+### refactor
+
+* move all files to vimdir ([0bf5c07](https://github.com/snelling-a/vim/commit/0bf5c076be85550542c87e7fe8d5500533aa0f1e))
+
 ## [1.2.4](https://github.com/snelling-a/vim/compare/v1.2.3...v1.2.4) (2023-10-14)
 
 
