@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.3](https://github.com/snelling-a/vim/compare/v1.2.2...v1.2.3) (2023-10-14)
+
+
+### Bug Fixes
+
+* undodir ([0e151e1](https://github.com/snelling-a/vim/commit/0e151e1f8373c0b0a482e7b2a0939dcde30d32f6))
+
 ## [1.2.2](https://github.com/snelling-a/vim/compare/v1.2.1...v1.2.2) (2023-09-26)
 
 
