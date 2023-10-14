@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.4](https://github.com/snelling-a/vim/compare/v1.2.3...v1.2.4) (2023-10-14)
+
+
+### Bug Fixes
+
+* title ([e548590](https://github.com/snelling-a/vim/commit/e548590c90a9d56ff46b2155633c7a19b6edc58f))
+
 ## [1.2.3](https://github.com/snelling-a/vim/compare/v1.2.2...v1.2.3) (2023-10-14)
 
 
