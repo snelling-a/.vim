@@ -43,12 +43,6 @@ nnoremap H ^
 " Move to the end of line
 nnoremap L $
 
-" Don't press shift to enter command mode
-nnoremap ; :
-vnoremap ; :
-nnoremap : ;
-vnoremap : ;
-
 " Center the cursor vertically
 nnoremap n nzz
 nnoremap <C-u> <C-u>zz
@@ -67,12 +61,3 @@ nnoremap U <C-r>
 
 " https://stackoverflow.com/a/53782580/14441449a
 nnoremap <C-N> i<CR><Esc>
-
-" Easy window navigation
-map <C-h> <C-w>h
-map <C-j> <C-w>j
-map <C-k> <C-w>k
-map <C-l> <C-w>l
-
-" clear highlighting
-nnoremap <leader>/ :noh<CR>
