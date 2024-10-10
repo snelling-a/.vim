@@ -2,10 +2,10 @@ augroup filetype_fold
   autocmd!
   autocmd filetype vim,yaml setlocal foldmethod=marker
   autocmd filetype json setlocal foldmethod=indent conceallevel=2
+  autocmd filetype html setlocal tabstop=2 shiftwidth=2 expandtab
 augroup end
 
 " if the current file type is html set indentation to 2 spaces.
-autocmd filetype html setlocal tabstop=2 shiftwidth=2 expandtab
 
 " sort JSON
 command SortJSON %!jq -S .
