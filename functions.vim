@@ -21,25 +21,6 @@ augroup end
 " save on lost focus/exit
 autocmd focuslost,vimleavepre * silent! w
 
-" also, save every 30 seconds if there are changes
-let g:autosave_seconds = 30
-au bufread,bufnewfile * let b:start_time=localtime()
-au cursorhold * silent! call updatefile()
-function! Updatefile()
-  if ((localtime() - b:start_time) >= g:autosave_seconds)
-    update
-    let b:start_time=localtime()
-  endif
-endfunction
-au bufwritepre * let b:start_time=localtime()
-
-" Open help in fullscreen
-augroup help_as_buffer
-  autocmd!
-  autocmd FileType help :tabnew % | tabprevious | quit | tabnext
-  autocmd FileType help set buflisted
-augroup END
-
 function! Relpath(filename)
   let cwd = getcwd()
   let s = substitute(a:filename, l:cwd . "/" , "", "")
